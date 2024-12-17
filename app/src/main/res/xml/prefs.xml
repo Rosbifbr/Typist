@@ -18,8 +18,8 @@
     android:key="english_ime_settings">
     <PreferenceScreen
         android:fragment="rosbifbr.typist.inputmethod.latin.settings.PreferencesVoiceApiFragment"
-        android:title="@string/voice_api_settings"
-        android:key="voice_api_settings" />
+        android:title="@string/voice_api_preferences"
+        android:key="voice_api_preferences" />
     <PreferenceScreen
         android:fragment="rosbifbr.typist.inputmethod.latin.settings.PreferencesSettingsFragment"
         android:title="@string/settings_screen_preferences"

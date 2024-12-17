@@ -121,5 +121,8 @@
     <string name="change_keyboard">Change keyboard</string>
     <string name="privacy_policy">Privacy Policy</string>
     <string name="license">License</string>
-    <string name="voice_api_settings">Voice Configuration</string>
+    <string name="voice_api_preferences">Voice Configuration</string>
+    <string name="api_key_title">Voice API Key</string>
+    <string name="api_key_dialog_title">Whisper API Key</string>
+    <string name="api_key_summary">Alter your OpenAI Whisper API Key</string>
 </resources>
