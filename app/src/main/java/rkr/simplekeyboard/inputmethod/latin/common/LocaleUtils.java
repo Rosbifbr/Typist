@@ -14,7 +14,7 @@
  * the License.
  */
 
-package rkr.simplekeyboard.inputmethod.latin.common;
+package rosbifbr.typist.inputmethod.latin.common;
 
 import android.content.res.Resources;
 import android.os.Build;
@@ -28,7 +28,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Locale;
 
-import rkr.simplekeyboard.inputmethod.latin.utils.LocaleResourceUtils;
+import rosbifbr.typist.inputmethod.latin.utils.LocaleResourceUtils;
 
 /**
  * A class to help with handling Locales in string form.

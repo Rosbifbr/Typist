@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package rkr.simplekeyboard.inputmethod.keyboard.internal;
+package rosbifbr.typist.inputmethod.keyboard.internal;
 
 import android.content.Context;
 import android.graphics.Rect;
@@ -28,7 +28,7 @@ import android.widget.TextView;
 
 import java.util.HashSet;
 
-import rkr.simplekeyboard.inputmethod.keyboard.Key;
+import rosbifbr.typist.inputmethod.keyboard.Key;
 
 /**
  * The pop up key preview view.

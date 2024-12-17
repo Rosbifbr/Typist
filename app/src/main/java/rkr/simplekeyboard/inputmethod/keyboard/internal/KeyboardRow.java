@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package rkr.simplekeyboard.inputmethod.keyboard.internal;
+package rosbifbr.typist.inputmethod.keyboard.internal;
 
 import android.content.res.Resources;
 import android.content.res.TypedArray;
@@ -25,10 +25,10 @@ import org.xmlpull.v1.XmlPullParser;
 
 import java.util.ArrayDeque;
 
-import rkr.simplekeyboard.inputmethod.R;
-import rkr.simplekeyboard.inputmethod.keyboard.Key;
-import rkr.simplekeyboard.inputmethod.keyboard.Keyboard;
-import rkr.simplekeyboard.inputmethod.latin.utils.ResourceUtils;
+import rosbifbr.typist.inputmethod.R;
+import rosbifbr.typist.inputmethod.keyboard.Key;
+import rosbifbr.typist.inputmethod.keyboard.Keyboard;
+import rosbifbr.typist.inputmethod.latin.utils.ResourceUtils;
 
 /**
  * Container for keys in the keyboard. All keys in a row are at the same Y-coordinate.

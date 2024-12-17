@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package rkr.simplekeyboard.inputmethod.keyboard.internal;
+package rosbifbr.typist.inputmethod.keyboard.internal;
 
 import android.text.TextUtils;
 import android.util.SparseIntArray;
@@ -23,10 +23,10 @@ import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Locale;
 
-import rkr.simplekeyboard.inputmethod.keyboard.Key;
-import rkr.simplekeyboard.inputmethod.latin.common.CollectionUtils;
-import rkr.simplekeyboard.inputmethod.latin.common.Constants;
-import rkr.simplekeyboard.inputmethod.latin.common.StringUtils;
+import rosbifbr.typist.inputmethod.keyboard.Key;
+import rosbifbr.typist.inputmethod.latin.common.CollectionUtils;
+import rosbifbr.typist.inputmethod.latin.common.Constants;
+import rosbifbr.typist.inputmethod.latin.common.StringUtils;
 
 /**
  * The more key specification object. The more keys are an array of {@link MoreKeySpec}.

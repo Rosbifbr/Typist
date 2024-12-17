@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package rkr.simplekeyboard.inputmethod.keyboard.internal;
+package rosbifbr.typist.inputmethod.keyboard.internal;
 
 import android.content.res.TypedArray;
 import android.graphics.Typeface;
 import android.util.SparseIntArray;
 
-import rkr.simplekeyboard.inputmethod.R;
-import rkr.simplekeyboard.inputmethod.latin.utils.ResourceUtils;
+import rosbifbr.typist.inputmethod.R;
+import rosbifbr.typist.inputmethod.latin.utils.ResourceUtils;
 
 public final class KeyVisualAttributes {
     public final Typeface mTypeface;

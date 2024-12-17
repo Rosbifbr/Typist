@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package rkr.simplekeyboard.inputmethod.keyboard;
+package rosbifbr.typist.inputmethod.keyboard;
 
 import android.util.SparseArray;
 
@@ -22,10 +22,10 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-import rkr.simplekeyboard.inputmethod.keyboard.internal.KeyVisualAttributes;
-import rkr.simplekeyboard.inputmethod.keyboard.internal.KeyboardIconsSet;
-import rkr.simplekeyboard.inputmethod.keyboard.internal.KeyboardParams;
-import rkr.simplekeyboard.inputmethod.latin.common.Constants;
+import rosbifbr.typist.inputmethod.keyboard.internal.KeyVisualAttributes;
+import rosbifbr.typist.inputmethod.keyboard.internal.KeyboardIconsSet;
+import rosbifbr.typist.inputmethod.keyboard.internal.KeyboardParams;
+import rosbifbr.typist.inputmethod.latin.common.Constants;
 
 /**
  * Loads an XML description of a keyboard and stores the attributes of the keys. A keyboard

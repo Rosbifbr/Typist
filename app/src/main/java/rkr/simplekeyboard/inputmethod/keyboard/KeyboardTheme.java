@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package rkr.simplekeyboard.inputmethod.keyboard;
+package rosbifbr.typist.inputmethod.keyboard;
 
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.util.Log;
 
-import rkr.simplekeyboard.inputmethod.R;
-import rkr.simplekeyboard.inputmethod.compat.PreferenceManagerCompat;
-import rkr.simplekeyboard.inputmethod.latin.settings.Settings;
+import rosbifbr.typist.inputmethod.R;
+import rosbifbr.typist.inputmethod.compat.PreferenceManagerCompat;
+import rosbifbr.typist.inputmethod.latin.settings.Settings;
 
 public final class KeyboardTheme {
     private static final String TAG = KeyboardTheme.class.getSimpleName();

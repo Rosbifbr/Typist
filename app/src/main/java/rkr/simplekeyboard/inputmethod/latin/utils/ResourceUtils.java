@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package rkr.simplekeyboard.inputmethod.latin.utils;
+package rosbifbr.typist.inputmethod.latin.utils;
 
 import android.content.res.Configuration;
 import android.content.res.Resources;
@@ -30,8 +30,8 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.regex.PatternSyntaxException;
 
-import rkr.simplekeyboard.inputmethod.R;
-import rkr.simplekeyboard.inputmethod.latin.settings.SettingsValues;
+import rosbifbr.typist.inputmethod.R;
+import rosbifbr.typist.inputmethod.latin.settings.SettingsValues;
 
 public final class ResourceUtils {
     private static final String TAG = ResourceUtils.class.getSimpleName();

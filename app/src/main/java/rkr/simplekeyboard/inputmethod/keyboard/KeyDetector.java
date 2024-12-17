@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package rkr.simplekeyboard.inputmethod.keyboard;
+package rosbifbr.typist.inputmethod.keyboard;
 
 /**
  * This class handles key detection.

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package rkr.simplekeyboard.inputmethod.keyboard;
+package rosbifbr.typist.inputmethod.keyboard;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -37,13 +37,13 @@ import android.view.WindowInsets;
 
 import java.util.HashSet;
 
-import rkr.simplekeyboard.inputmethod.R;
-import rkr.simplekeyboard.inputmethod.compat.PreferenceManagerCompat;
-import rkr.simplekeyboard.inputmethod.keyboard.internal.KeyDrawParams;
-import rkr.simplekeyboard.inputmethod.keyboard.internal.KeyVisualAttributes;
-import rkr.simplekeyboard.inputmethod.latin.common.Constants;
-import rkr.simplekeyboard.inputmethod.latin.settings.Settings;
-import rkr.simplekeyboard.inputmethod.latin.utils.TypefaceUtils;
+import rosbifbr.typist.inputmethod.R;
+import rosbifbr.typist.inputmethod.compat.PreferenceManagerCompat;
+import rosbifbr.typist.inputmethod.keyboard.internal.KeyDrawParams;
+import rosbifbr.typist.inputmethod.keyboard.internal.KeyVisualAttributes;
+import rosbifbr.typist.inputmethod.latin.common.Constants;
+import rosbifbr.typist.inputmethod.latin.settings.Settings;
+import rosbifbr.typist.inputmethod.latin.utils.TypefaceUtils;
 
 /**
  * A view that renders a virtual {@link Keyboard}.

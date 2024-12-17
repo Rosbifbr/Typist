@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package rkr.simplekeyboard.inputmethod.latin.settings;
+package rosbifbr.typist.inputmethod.latin.settings;
 
 import android.app.ActionBar;
 import android.app.AlertDialog;
@@ -28,8 +28,8 @@ import android.view.MenuItem;
 import android.view.inputmethod.InputMethodInfo;
 import android.view.inputmethod.InputMethodManager;
 
-import rkr.simplekeyboard.inputmethod.R;
-import rkr.simplekeyboard.inputmethod.latin.utils.FragmentUtils;
+import rosbifbr.typist.inputmethod.R;
+import rosbifbr.typist.inputmethod.latin.utils.FragmentUtils;
 
 public class SettingsActivity extends PreferenceActivity {
     private static final String DEFAULT_FRAGMENT = SettingsFragment.class.getName();

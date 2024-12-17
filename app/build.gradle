@@ -2,7 +2,7 @@ apply plugin: 'com.android.application'
 
 android {
     defaultConfig {
-        applicationId "rkr.simplekeyboard.inputmethod"
+        applicationId "rosbifbr.typist.inputmethod"
         compileSdk 35
         minSdkVersion 19
         targetSdkVersion 35
@@ -15,7 +15,7 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
-    namespace 'rkr.simplekeyboard.inputmethod'
+    namespace 'rosbifbr.typist.inputmethod'
 }
 
 dependencies {

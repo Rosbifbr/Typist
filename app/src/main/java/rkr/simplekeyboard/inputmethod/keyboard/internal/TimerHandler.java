@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package rkr.simplekeyboard.inputmethod.keyboard.internal;
+package rosbifbr.typist.inputmethod.keyboard.internal;
 
 import android.os.Message;
 import android.view.ViewConfiguration;
 
-import rkr.simplekeyboard.inputmethod.keyboard.Key;
-import rkr.simplekeyboard.inputmethod.keyboard.PointerTracker;
-import rkr.simplekeyboard.inputmethod.latin.common.Constants;
-import rkr.simplekeyboard.inputmethod.latin.utils.LeakGuardHandlerWrapper;
+import rosbifbr.typist.inputmethod.keyboard.Key;
+import rosbifbr.typist.inputmethod.keyboard.PointerTracker;
+import rosbifbr.typist.inputmethod.latin.common.Constants;
+import rosbifbr.typist.inputmethod.latin.utils.LeakGuardHandlerWrapper;
 
 public final class TimerHandler extends LeakGuardHandlerWrapper<DrawingProxy>
         implements TimerProxy {

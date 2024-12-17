@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package rkr.simplekeyboard.inputmethod.latin.settings;
+package rosbifbr.typist.inputmethod.latin.settings;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -25,12 +25,12 @@ import android.util.Log;
 
 import java.util.concurrent.locks.ReentrantLock;
 
-import rkr.simplekeyboard.inputmethod.R;
-import rkr.simplekeyboard.inputmethod.compat.PreferenceManagerCompat;
-import rkr.simplekeyboard.inputmethod.keyboard.KeyboardTheme;
-import rkr.simplekeyboard.inputmethod.latin.AudioAndHapticFeedbackManager;
-import rkr.simplekeyboard.inputmethod.latin.InputAttributes;
-import rkr.simplekeyboard.inputmethod.latin.utils.ResourceUtils;
+import rosbifbr.typist.inputmethod.R;
+import rosbifbr.typist.inputmethod.compat.PreferenceManagerCompat;
+import rosbifbr.typist.inputmethod.keyboard.KeyboardTheme;
+import rosbifbr.typist.inputmethod.latin.AudioAndHapticFeedbackManager;
+import rosbifbr.typist.inputmethod.latin.InputAttributes;
+import rosbifbr.typist.inputmethod.latin.utils.ResourceUtils;
 
 public final class Settings implements SharedPreferences.OnSharedPreferenceChangeListener {
     private static final String TAG = Settings.class.getSimpleName();

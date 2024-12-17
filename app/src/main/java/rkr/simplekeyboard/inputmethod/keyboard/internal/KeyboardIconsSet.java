@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package rkr.simplekeyboard.inputmethod.keyboard.internal;
+package rosbifbr.typist.inputmethod.keyboard.internal;
 
 import android.content.res.Resources;
 import android.content.res.TypedArray;
@@ -24,7 +24,7 @@ import android.util.SparseIntArray;
 
 import java.util.HashMap;
 
-import rkr.simplekeyboard.inputmethod.R;
+import rosbifbr.typist.inputmethod.R;
 
 public final class KeyboardIconsSet {
     private static final String TAG = KeyboardIconsSet.class.getSimpleName();

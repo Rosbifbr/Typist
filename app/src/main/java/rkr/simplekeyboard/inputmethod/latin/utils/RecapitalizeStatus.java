@@ -14,11 +14,11 @@
  * the License.
  */
 
-package rkr.simplekeyboard.inputmethod.latin.utils;
+package rosbifbr.typist.inputmethod.latin.utils;
 
 import java.util.Locale;
 
-import rkr.simplekeyboard.inputmethod.latin.common.StringUtils;
+import rosbifbr.typist.inputmethod.latin.common.StringUtils;
 
 /**
  * The status of the current recapitalize process.

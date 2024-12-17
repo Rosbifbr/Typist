@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package rkr.simplekeyboard.inputmethod.latin.settings;
+package rosbifbr.typist.inputmethod.latin.settings;
 
 import android.content.SharedPreferences;
 import android.content.res.Configuration;
 import android.content.res.Resources;
 import android.view.inputmethod.EditorInfo;
 
-import rkr.simplekeyboard.inputmethod.R;
-import rkr.simplekeyboard.inputmethod.latin.InputAttributes;
+import rosbifbr.typist.inputmethod.R;
+import rosbifbr.typist.inputmethod.latin.InputAttributes;
 
 // Non-final for testing via mock library.
 public class SettingsValues {

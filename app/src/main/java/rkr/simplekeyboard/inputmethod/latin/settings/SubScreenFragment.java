@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package rkr.simplekeyboard.inputmethod.latin.settings;
+package rosbifbr.typist.inputmethod.latin.settings;
 
 import android.app.backup.BackupManager;
 import android.content.Context;
@@ -27,7 +27,7 @@ import android.preference.PreferenceFragment;
 import android.preference.PreferenceScreen;
 import android.util.Log;
 
-import rkr.simplekeyboard.inputmethod.compat.PreferenceManagerCompat;
+import rosbifbr.typist.inputmethod.compat.PreferenceManagerCompat;
 
 /**
  * A base abstract class for a {@link PreferenceFragment} that implements a nested

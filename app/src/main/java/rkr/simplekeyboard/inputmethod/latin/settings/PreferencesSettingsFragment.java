@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package rkr.simplekeyboard.inputmethod.latin.settings;
+package rosbifbr.typist.inputmethod.latin.settings;
 
 import android.content.SharedPreferences;
 import android.os.Build;
@@ -23,8 +23,8 @@ import android.preference.CheckBoxPreference;
 import android.preference.Preference;
 import android.preference.SwitchPreference;
 
-import rkr.simplekeyboard.inputmethod.R;
-import rkr.simplekeyboard.inputmethod.keyboard.KeyboardLayoutSet;
+import rosbifbr.typist.inputmethod.R;
+import rosbifbr.typist.inputmethod.keyboard.KeyboardLayoutSet;
 
 /**
  * "Preferences" settings sub screen.

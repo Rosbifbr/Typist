@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package rkr.simplekeyboard.inputmethod.event;
+package rosbifbr.typist.inputmethod.event;
 
-import rkr.simplekeyboard.inputmethod.latin.settings.SettingsValues;
+import rosbifbr.typist.inputmethod.latin.settings.SettingsValues;
 
 /**
  * An object encapsulating a single transaction for input.

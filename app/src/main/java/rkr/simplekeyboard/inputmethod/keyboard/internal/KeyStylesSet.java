@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package rkr.simplekeyboard.inputmethod.keyboard.internal;
+package rosbifbr.typist.inputmethod.keyboard.internal;
 
 import android.content.res.TypedArray;
 import android.util.Log;
@@ -26,8 +26,8 @@ import org.xmlpull.v1.XmlPullParserException;
 import java.util.Arrays;
 import java.util.HashMap;
 
-import rkr.simplekeyboard.inputmethod.R;
-import rkr.simplekeyboard.inputmethod.latin.utils.XmlParseUtils;
+import rosbifbr.typist.inputmethod.R;
+import rosbifbr.typist.inputmethod.latin.utils.XmlParseUtils;
 
 public final class KeyStylesSet {
     private static final String TAG = KeyStylesSet.class.getSimpleName();

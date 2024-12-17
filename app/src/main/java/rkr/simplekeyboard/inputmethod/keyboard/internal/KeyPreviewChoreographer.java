@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package rkr.simplekeyboard.inputmethod.keyboard.internal;
+package rosbifbr.typist.inputmethod.keyboard.internal;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -25,9 +25,9 @@ import android.view.ViewGroup;
 import java.util.ArrayDeque;
 import java.util.HashMap;
 
-import rkr.simplekeyboard.inputmethod.keyboard.Key;
-import rkr.simplekeyboard.inputmethod.latin.common.CoordinateUtils;
-import rkr.simplekeyboard.inputmethod.latin.utils.ViewLayoutUtils;
+import rosbifbr.typist.inputmethod.keyboard.Key;
+import rosbifbr.typist.inputmethod.latin.common.CoordinateUtils;
+import rosbifbr.typist.inputmethod.latin.utils.ViewLayoutUtils;
 
 /**
  * This class controls pop up key previews. This class decides:

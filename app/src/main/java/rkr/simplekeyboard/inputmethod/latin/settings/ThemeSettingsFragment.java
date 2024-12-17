@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package rkr.simplekeyboard.inputmethod.latin.settings;
+package rosbifbr.typist.inputmethod.latin.settings;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -22,9 +22,9 @@ import android.os.Bundle;
 import android.preference.Preference;
 import android.preference.PreferenceScreen;
 
-import rkr.simplekeyboard.inputmethod.R;
-import rkr.simplekeyboard.inputmethod.keyboard.KeyboardTheme;
-import rkr.simplekeyboard.inputmethod.latin.settings.RadioButtonPreference.OnRadioButtonClickedListener;
+import rosbifbr.typist.inputmethod.R;
+import rosbifbr.typist.inputmethod.keyboard.KeyboardTheme;
+import rosbifbr.typist.inputmethod.latin.settings.RadioButtonPreference.OnRadioButtonClickedListener;
 
 /**
  * "Keyboard theme" settings sub screen.

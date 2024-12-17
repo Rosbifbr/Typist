@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package rkr.simplekeyboard.inputmethod.latin;
+package rosbifbr.typist.inputmethod.latin;
 
 import android.content.Context;
 import android.media.AudioManager;
@@ -22,8 +22,8 @@ import android.os.Vibrator;
 import android.view.HapticFeedbackConstants;
 import android.view.View;
 
-import rkr.simplekeyboard.inputmethod.latin.common.Constants;
-import rkr.simplekeyboard.inputmethod.latin.settings.SettingsValues;
+import rosbifbr.typist.inputmethod.latin.common.Constants;
+import rosbifbr.typist.inputmethod.latin.settings.SettingsValues;
 
 /**
  * This class gathers audio feedback and haptic feedback functions.

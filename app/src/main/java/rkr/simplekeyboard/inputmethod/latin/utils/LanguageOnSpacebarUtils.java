@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package rkr.simplekeyboard.inputmethod.latin.utils;
+package rosbifbr.typist.inputmethod.latin.utils;
 
 import java.util.Locale;
 import java.util.Set;
 
-import rkr.simplekeyboard.inputmethod.latin.Subtype;
-import rkr.simplekeyboard.inputmethod.latin.RichInputMethodManager;
+import rosbifbr.typist.inputmethod.latin.Subtype;
+import rosbifbr.typist.inputmethod.latin.RichInputMethodManager;
 
 /**
  * This class determines that the language name on the spacebar should be displayed in what format.

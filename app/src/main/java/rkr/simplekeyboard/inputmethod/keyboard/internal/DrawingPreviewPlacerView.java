@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package rkr.simplekeyboard.inputmethod.keyboard.internal;
+package rosbifbr.typist.inputmethod.keyboard.internal;
 
 import android.content.Context;
 import android.graphics.Canvas;
 import android.util.AttributeSet;
 import android.widget.RelativeLayout;
 
-import rkr.simplekeyboard.inputmethod.latin.common.CoordinateUtils;
+import rosbifbr.typist.inputmethod.latin.common.CoordinateUtils;
 
 public final class DrawingPreviewPlacerView extends RelativeLayout {
     private final int[] mKeyboardViewOrigin = CoordinateUtils.newInstance();

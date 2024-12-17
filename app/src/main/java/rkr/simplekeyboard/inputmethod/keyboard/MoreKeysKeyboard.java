@@ -14,18 +14,18 @@
  * limitations under the License.
  */
 
-package rkr.simplekeyboard.inputmethod.keyboard;
+package rosbifbr.typist.inputmethod.keyboard;
 
 import android.content.Context;
 import android.graphics.Paint;
 import android.util.Log;
 
-import rkr.simplekeyboard.inputmethod.R;
-import rkr.simplekeyboard.inputmethod.keyboard.internal.KeyboardBuilder;
-import rkr.simplekeyboard.inputmethod.keyboard.internal.KeyboardParams;
-import rkr.simplekeyboard.inputmethod.keyboard.internal.MoreKeySpec;
-import rkr.simplekeyboard.inputmethod.latin.common.StringUtils;
-import rkr.simplekeyboard.inputmethod.latin.utils.TypefaceUtils;
+import rosbifbr.typist.inputmethod.R;
+import rosbifbr.typist.inputmethod.keyboard.internal.KeyboardBuilder;
+import rosbifbr.typist.inputmethod.keyboard.internal.KeyboardParams;
+import rosbifbr.typist.inputmethod.keyboard.internal.MoreKeySpec;
+import rosbifbr.typist.inputmethod.latin.common.StringUtils;
+import rosbifbr.typist.inputmethod.latin.utils.TypefaceUtils;
 
 public final class MoreKeysKeyboard extends Keyboard {
     private static final String TAG = MoreKeysKeyboard.class.getSimpleName();

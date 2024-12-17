@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package rkr.simplekeyboard.inputmethod.latin.utils;
+package rosbifbr.typist.inputmethod.latin.utils;
 
 import java.util.HashSet;
 
-import rkr.simplekeyboard.inputmethod.latin.settings.AppearanceSettingsFragment;
-import rkr.simplekeyboard.inputmethod.latin.settings.KeyPressSettingsFragment;
-import rkr.simplekeyboard.inputmethod.latin.settings.LanguagesSettingsFragment;
-import rkr.simplekeyboard.inputmethod.latin.settings.PreferencesSettingsFragment;
-import rkr.simplekeyboard.inputmethod.latin.settings.SettingsFragment;
-import rkr.simplekeyboard.inputmethod.latin.settings.SingleLanguageSettingsFragment;
-import rkr.simplekeyboard.inputmethod.latin.settings.ThemeSettingsFragment;
+import rosbifbr.typist.inputmethod.latin.settings.AppearanceSettingsFragment;
+import rosbifbr.typist.inputmethod.latin.settings.KeyPressSettingsFragment;
+import rosbifbr.typist.inputmethod.latin.settings.LanguagesSettingsFragment;
+import rosbifbr.typist.inputmethod.latin.settings.PreferencesSettingsFragment;
+import rosbifbr.typist.inputmethod.latin.settings.SettingsFragment;
+import rosbifbr.typist.inputmethod.latin.settings.SingleLanguageSettingsFragment;
+import rosbifbr.typist.inputmethod.latin.settings.ThemeSettingsFragment;
 
 public class FragmentUtils {
     private static final HashSet<String> sLatinImeFragments = new HashSet<>();

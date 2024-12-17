@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package rkr.simplekeyboard.inputmethod.keyboard.internal;
+package rosbifbr.typist.inputmethod.keyboard.internal;
 
 import android.animation.Animator;
 import android.animation.AnimatorInflater;
@@ -22,7 +22,7 @@ import android.content.res.TypedArray;
 import android.view.View;
 import android.view.animation.AccelerateInterpolator;
 
-import rkr.simplekeyboard.inputmethod.R;
+import rosbifbr.typist.inputmethod.R;
 
 public final class KeyPreviewDrawParams {
     // XML attributes of {@link MainKeyboardView}.

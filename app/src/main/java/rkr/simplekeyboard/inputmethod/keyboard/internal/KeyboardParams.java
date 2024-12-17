@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package rkr.simplekeyboard.inputmethod.keyboard.internal;
+package rosbifbr.typist.inputmethod.keyboard.internal;
 
 import android.util.SparseIntArray;
 
@@ -23,9 +23,9 @@ import java.util.Comparator;
 import java.util.SortedSet;
 import java.util.TreeSet;
 
-import rkr.simplekeyboard.inputmethod.keyboard.Key;
-import rkr.simplekeyboard.inputmethod.keyboard.KeyboardId;
-import rkr.simplekeyboard.inputmethod.latin.common.Constants;
+import rosbifbr.typist.inputmethod.keyboard.Key;
+import rosbifbr.typist.inputmethod.keyboard.KeyboardId;
+import rosbifbr.typist.inputmethod.latin.common.Constants;
 
 public class KeyboardParams {
     public KeyboardId mId;

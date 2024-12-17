@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package rkr.simplekeyboard.inputmethod.keyboard.internal;
+package rosbifbr.typist.inputmethod.keyboard.internal;
 
 import java.util.HashMap;
 
-import rkr.simplekeyboard.inputmethod.latin.common.Constants;
+import rosbifbr.typist.inputmethod.latin.common.Constants;
 
 public final class KeyboardCodesSet {
     public static final String PREFIX_CODE = "!code/";

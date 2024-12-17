@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package rkr.simplekeyboard.inputmethod.latin;
+package rosbifbr.typist.inputmethod.latin;
 
 import android.content.Context;
 import android.util.AttributeSet;

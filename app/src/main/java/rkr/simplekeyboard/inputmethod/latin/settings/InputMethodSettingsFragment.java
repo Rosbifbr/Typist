@@ -13,13 +13,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package rkr.simplekeyboard.inputmethod.latin.settings;
+package rosbifbr.typist.inputmethod.latin.settings;
 
 import android.content.Context;
 import android.os.Bundle;
 import android.preference.PreferenceFragment;
 
-import rkr.simplekeyboard.inputmethod.compat.PreferenceManagerCompat;
+import rosbifbr.typist.inputmethod.compat.PreferenceManagerCompat;
 
 /**
  * This is a helper class for an IME's settings preference fragment. It's recommended for every

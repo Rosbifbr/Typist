@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package rkr.simplekeyboard.inputmethod.latin.settings;
+package rosbifbr.typist.inputmethod.latin.settings;
 
 import android.content.Context;
 import android.preference.Preference;
@@ -23,9 +23,9 @@ import android.text.TextUtils;
 
 import java.util.Set;
 
-import rkr.simplekeyboard.inputmethod.R;
-import rkr.simplekeyboard.inputmethod.latin.Subtype;
-import rkr.simplekeyboard.inputmethod.latin.RichInputMethodManager;
+import rosbifbr.typist.inputmethod.R;
+import rosbifbr.typist.inputmethod.latin.Subtype;
+import rosbifbr.typist.inputmethod.latin.RichInputMethodManager;
 
 /* package private */ class InputMethodSettingsImpl {
     private Preference mSubtypeEnablerPreference;

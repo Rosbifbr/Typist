@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package rkr.simplekeyboard.inputmethod.latin.settings;
+package rosbifbr.typist.inputmethod.latin.settings;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -22,8 +22,8 @@ import android.content.res.Resources;
 import android.media.AudioManager;
 import android.os.Bundle;
 
-import rkr.simplekeyboard.inputmethod.R;
-import rkr.simplekeyboard.inputmethod.latin.AudioAndHapticFeedbackManager;
+import rosbifbr.typist.inputmethod.R;
+import rosbifbr.typist.inputmethod.latin.AudioAndHapticFeedbackManager;
 
 /**
  * "Preferences" settings sub screen.

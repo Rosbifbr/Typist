@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package rkr.simplekeyboard.inputmethod.latin.utils;
+package rosbifbr.typist.inputmethod.latin.utils;
 
 import android.text.InputType;
 import android.text.TextUtils;
 
 import java.util.ArrayList;
 
-import rkr.simplekeyboard.inputmethod.latin.common.Constants;
-import rkr.simplekeyboard.inputmethod.latin.settings.SpacingAndPunctuations;
+import rosbifbr.typist.inputmethod.latin.common.Constants;
+import rosbifbr.typist.inputmethod.latin.settings.SpacingAndPunctuations;
 
 public final class CapsModeUtils {
     private CapsModeUtils() {

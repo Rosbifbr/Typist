@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package rkr.simplekeyboard.inputmethod.latin;
+package rosbifbr.typist.inputmethod.latin;
 
 import android.content.res.Resources;
 
 import java.util.Locale;
 
-import rkr.simplekeyboard.inputmethod.R;
-import rkr.simplekeyboard.inputmethod.latin.common.LocaleUtils;
-import rkr.simplekeyboard.inputmethod.latin.utils.LocaleResourceUtils;
+import rosbifbr.typist.inputmethod.R;
+import rosbifbr.typist.inputmethod.latin.common.LocaleUtils;
+import rosbifbr.typist.inputmethod.latin.utils.LocaleResourceUtils;
 
 /**
  * A keyboard layout for a locale.

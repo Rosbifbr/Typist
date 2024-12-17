@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package rkr.simplekeyboard.inputmethod.latin;
+package rosbifbr.typist.inputmethod.latin;
 
 import android.text.InputType;
 import android.util.Log;
 import android.view.inputmethod.EditorInfo;
 
-import rkr.simplekeyboard.inputmethod.latin.common.StringUtils;
-import rkr.simplekeyboard.inputmethod.latin.utils.InputTypeUtils;
+import rosbifbr.typist.inputmethod.latin.common.StringUtils;
+import rosbifbr.typist.inputmethod.latin.utils.InputTypeUtils;
 
 /**
  * Class to hold attributes of the input field.

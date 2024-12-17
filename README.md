@@ -25,4 +25,4 @@ TBA. For now only in the releases tab.
 
 Licensed under Apache License Version 2
 
-This keyboard is based on Raimondas Rimkus's Simple Keyboard, which is itself based on AOSP's LatinIME keyboard. You can get the original source code in <https://github.com/rkkr/simple-keyboard> and <https://android.googlesource.com/platform/packages/inputmethods/LatinIME/>
+This keyboard is based on Raimondas Rimkus's Typist, which is itself based on AOSP's LatinIME keyboard. You can get the original source code in <https://github.com/rkkr/simple-keyboard> and <https://android.googlesource.com/platform/packages/inputmethods/LatinIME/>

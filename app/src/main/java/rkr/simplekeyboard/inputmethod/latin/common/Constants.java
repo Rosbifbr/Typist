@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package rkr.simplekeyboard.inputmethod.latin.common;
+package rosbifbr.typist.inputmethod.latin.common;
 
 public final class Constants {
 
@@ -61,7 +61,7 @@ public final class Constants {
 
     /**
      * Custom request code used in
-     * {@link rkr.simplekeyboard.inputmethod.keyboard.KeyboardActionListener#onCustomRequest(int)}.
+     * {@link rosbifbr.typist.inputmethod.keyboard.KeyboardActionListener#onCustomRequest(int)}.
      */
     // The code to show input method picker.
     public static final int CUSTOM_CODE_SHOW_INPUT_METHOD_PICKER = 1;
@@ -85,7 +85,7 @@ public final class Constants {
     /**
      * Special keys code. Must be negative.
      * These should be aligned with constants in
-     * {@link rkr.simplekeyboard.inputmethod.keyboard.internal.KeyboardCodesSet}.
+     * {@link rosbifbr.typist.inputmethod.keyboard.internal.KeyboardCodesSet}.
      */
     public static final int CODE_SHIFT = -1;
     public static final int CODE_CAPSLOCK = -2;
@@ -131,7 +131,7 @@ public final class Constants {
 
     /**
      * Screen metrics (a.k.a. Device form factor) constants of
-     * {@link rkr.simplekeyboard.inputmethod.R.integer#config_screen_metrics}.
+     * {@link rosbifbr.typist.inputmethod.R.integer#config_screen_metrics}.
      */
     public static final int SCREEN_METRICS_LARGE_TABLET = 2;
     public static final int SCREEN_METRICS_SMALL_TABLET = 3;

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package rkr.simplekeyboard.inputmethod.latin.utils;
+package rosbifbr.typist.inputmethod.latin.utils;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -22,9 +22,9 @@ import android.content.res.Resources;
 import java.util.HashMap;
 import java.util.Locale;
 
-import rkr.simplekeyboard.inputmethod.R;
-import rkr.simplekeyboard.inputmethod.latin.common.LocaleUtils;
-import rkr.simplekeyboard.inputmethod.latin.common.StringUtils;
+import rosbifbr.typist.inputmethod.R;
+import rosbifbr.typist.inputmethod.latin.common.LocaleUtils;
+import rosbifbr.typist.inputmethod.latin.common.StringUtils;
 
 /**
  * A helper class to deal with displaying locales.

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package rkr.simplekeyboard.inputmethod.keyboard;
+package rosbifbr.typist.inputmethod.keyboard;
 
 public final class MoreKeysDetector extends KeyDetector {
     private final int mSlideAllowanceSquare;

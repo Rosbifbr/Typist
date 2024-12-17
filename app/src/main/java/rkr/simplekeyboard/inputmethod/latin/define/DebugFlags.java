@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package rkr.simplekeyboard.inputmethod.latin.define;
+package rosbifbr.typist.inputmethod.latin.define;
 
 import android.content.SharedPreferences;
 

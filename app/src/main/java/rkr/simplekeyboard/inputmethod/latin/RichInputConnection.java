@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package rkr.simplekeyboard.inputmethod.latin;
+package rosbifbr.typist.inputmethod.latin;
 
 import android.annotation.TargetApi;
 import android.os.Build;
@@ -26,10 +26,10 @@ import android.view.inputmethod.SurroundingText;
 
 import java.util.concurrent.Executors;
 
-import rkr.simplekeyboard.inputmethod.latin.common.Constants;
-import rkr.simplekeyboard.inputmethod.latin.common.StringUtils;
-import rkr.simplekeyboard.inputmethod.latin.settings.SpacingAndPunctuations;
-import rkr.simplekeyboard.inputmethod.latin.utils.CapsModeUtils;
+import rosbifbr.typist.inputmethod.latin.common.Constants;
+import rosbifbr.typist.inputmethod.latin.common.StringUtils;
+import rosbifbr.typist.inputmethod.latin.settings.SpacingAndPunctuations;
+import rosbifbr.typist.inputmethod.latin.utils.CapsModeUtils;
 
 /**
  * Enrichment class for InputConnection to simplify interaction and add functionality.

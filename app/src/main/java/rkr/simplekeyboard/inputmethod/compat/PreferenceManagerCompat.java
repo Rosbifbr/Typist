@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package rkr.simplekeyboard.inputmethod.compat;
+package rosbifbr.typist.inputmethod.compat;
 
 import android.content.Context;
 import android.content.SharedPreferences;

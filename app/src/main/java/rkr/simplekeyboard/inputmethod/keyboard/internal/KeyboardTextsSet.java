@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package rkr.simplekeyboard.inputmethod.keyboard.internal;
+package rosbifbr.typist.inputmethod.keyboard.internal;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -22,7 +22,7 @@ import android.text.TextUtils;
 
 import java.util.Locale;
 
-import rkr.simplekeyboard.inputmethod.latin.common.Constants;
+import rosbifbr.typist.inputmethod.latin.common.Constants;
 
 // TODO: Make this an immutable class.
 public final class KeyboardTextsSet {

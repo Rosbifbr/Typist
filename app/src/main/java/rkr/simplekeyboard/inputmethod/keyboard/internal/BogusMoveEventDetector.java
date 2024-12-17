@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package rkr.simplekeyboard.inputmethod.keyboard.internal;
+package rosbifbr.typist.inputmethod.keyboard.internal;
 
 import android.content.res.Resources;
 import android.util.DisplayMetrics;
 import android.util.Log;
 
-import rkr.simplekeyboard.inputmethod.R;
-import rkr.simplekeyboard.inputmethod.latin.common.Constants;
-import rkr.simplekeyboard.inputmethod.latin.define.DebugFlags;
+import rosbifbr.typist.inputmethod.R;
+import rosbifbr.typist.inputmethod.latin.common.Constants;
+import rosbifbr.typist.inputmethod.latin.define.DebugFlags;
 
 // This hack is applied to certain classes of tablets.
 public final class BogusMoveEventDetector {

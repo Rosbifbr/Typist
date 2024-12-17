@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package rkr.simplekeyboard.inputmethod.keyboard.internal;
+package rosbifbr.typist.inputmethod.keyboard.internal;
 
-import rkr.simplekeyboard.inputmethod.latin.common.Constants;
-import rkr.simplekeyboard.inputmethod.latin.common.StringUtils;
+import rosbifbr.typist.inputmethod.latin.common.Constants;
+import rosbifbr.typist.inputmethod.latin.common.StringUtils;
 
-import static rkr.simplekeyboard.inputmethod.latin.common.Constants.CODE_OUTPUT_TEXT;
-import static rkr.simplekeyboard.inputmethod.latin.common.Constants.CODE_UNSPECIFIED;
+import static rosbifbr.typist.inputmethod.latin.common.Constants.CODE_OUTPUT_TEXT;
+import static rosbifbr.typist.inputmethod.latin.common.Constants.CODE_UNSPECIFIED;
 
 /**
  * The string parser of the key specification.

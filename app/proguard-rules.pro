@@ -16,7 +16,7 @@
 #   public *;
 #}
 
--keep class rkr.simplekeyboard.inputmethod.R
--keep class rkr.simplekeyboard.inputmethod.latin.settings.SettingsFragment
--keep class rkr.simplekeyboard.inputmethod.latin.settings.LanguagesSettingsFragment
--keep class rkr.simplekeyboard.inputmethod.latin.settings.SingleLanguageSettingsFragment
+-keep class rosbifbr.typist.inputmethod.R
+-keep class rosbifbr.typist.inputmethod.latin.settings.SettingsFragment
+-keep class rosbifbr.typist.inputmethod.latin.settings.LanguagesSettingsFragment
+-keep class rosbifbr.typist.inputmethod.latin.settings.SingleLanguageSettingsFragme

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package rkr.simplekeyboard.inputmethod.compat;
+package rosbifbr.typist.inputmethod.compat;
 
 import android.annotation.TargetApi;
 import android.graphics.Outline;
@@ -23,7 +23,7 @@ import android.os.Build;
 import android.view.View;
 import android.view.ViewOutlineProvider;
 
-import rkr.simplekeyboard.inputmethod.compat.ViewOutlineProviderCompatUtils.InsetsUpdater;
+import rosbifbr.typist.inputmethod.compat.ViewOutlineProviderCompatUtils.InsetsUpdater;
 
 @TargetApi(Build.VERSION_CODES.LOLLIPOP)
 class ViewOutlineProviderCompatUtilsLXX {

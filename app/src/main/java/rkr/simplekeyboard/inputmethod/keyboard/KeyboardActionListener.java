@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package rkr.simplekeyboard.inputmethod.keyboard;
+package rosbifbr.typist.inputmethod.keyboard;
 
-import rkr.simplekeyboard.inputmethod.latin.common.Constants;
+import rosbifbr.typist.inputmethod.latin.common.Constants;
 
 public interface KeyboardActionListener {
     /**

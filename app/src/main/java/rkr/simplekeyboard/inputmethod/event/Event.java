@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package rkr.simplekeyboard.inputmethod.event;
+package rosbifbr.typist.inputmethod.event;
 
-import rkr.simplekeyboard.inputmethod.latin.common.Constants;
-import rkr.simplekeyboard.inputmethod.latin.common.StringUtils;
+import rosbifbr.typist.inputmethod.latin.common.Constants;
+import rosbifbr.typist.inputmethod.latin.common.StringUtils;
 
 /**
  * Class representing a generic input event as handled by Latin IME.

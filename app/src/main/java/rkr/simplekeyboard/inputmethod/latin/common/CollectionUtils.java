@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package rkr.simplekeyboard.inputmethod.latin.common;
+package rosbifbr.typist.inputmethod.latin.common;
 
 import java.util.ArrayList;
 

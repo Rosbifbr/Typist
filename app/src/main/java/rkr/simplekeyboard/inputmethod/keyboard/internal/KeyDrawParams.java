@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package rkr.simplekeyboard.inputmethod.keyboard.internal;
+package rosbifbr.typist.inputmethod.keyboard.internal;
 
 import android.graphics.Typeface;
 
-import rkr.simplekeyboard.inputmethod.latin.utils.ResourceUtils;
+import rosbifbr.typist.inputmethod.latin.utils.ResourceUtils;
 
 public final class KeyDrawParams {
     public Typeface mTypeface = Typeface.DEFAULT;

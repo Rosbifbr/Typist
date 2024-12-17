@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package rkr.simplekeyboard.inputmethod.keyboard;
+package rosbifbr.typist.inputmethod.keyboard;
 
 import android.app.KeyguardManager;
 import android.content.Context;
@@ -34,13 +34,13 @@ import java.io.IOException;
 import java.lang.ref.SoftReference;
 import java.util.HashMap;
 
-import rkr.simplekeyboard.inputmethod.R;
-import rkr.simplekeyboard.inputmethod.keyboard.internal.KeyboardBuilder;
-import rkr.simplekeyboard.inputmethod.keyboard.internal.KeyboardParams;
-import rkr.simplekeyboard.inputmethod.keyboard.internal.UniqueKeysCache;
-import rkr.simplekeyboard.inputmethod.latin.Subtype;
-import rkr.simplekeyboard.inputmethod.latin.utils.InputTypeUtils;
-import rkr.simplekeyboard.inputmethod.latin.utils.XmlParseUtils;
+import rosbifbr.typist.inputmethod.R;
+import rosbifbr.typist.inputmethod.keyboard.internal.KeyboardBuilder;
+import rosbifbr.typist.inputmethod.keyboard.internal.KeyboardParams;
+import rosbifbr.typist.inputmethod.keyboard.internal.UniqueKeysCache;
+import rosbifbr.typist.inputmethod.latin.Subtype;
+import rosbifbr.typist.inputmethod.latin.utils.InputTypeUtils;
+import rosbifbr.typist.inputmethod.latin.utils.XmlParseUtils;
 
 /**
  * This class represents a set of keyboard layouts. Each of them represents a different keyboard

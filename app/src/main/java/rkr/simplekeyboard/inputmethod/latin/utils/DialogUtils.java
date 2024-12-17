@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package rkr.simplekeyboard.inputmethod.latin.utils;
+package rosbifbr.typist.inputmethod.latin.utils;
 
 import android.content.Context;
 import android.view.ContextThemeWrapper;
 
-import rkr.simplekeyboard.inputmethod.R;
+import rosbifbr.typist.inputmethod.R;
 
 public final class DialogUtils {
     private DialogUtils() {

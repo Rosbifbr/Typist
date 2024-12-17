@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package rkr.simplekeyboard.inputmethod.latin.settings;
+package rosbifbr.typist.inputmethod.latin.settings;
 
 import android.os.Bundle;
 import android.preference.PreferenceScreen;
 
-import rkr.simplekeyboard.inputmethod.R;
-import rkr.simplekeyboard.inputmethod.latin.utils.ApplicationUtils;
+import rosbifbr.typist.inputmethod.R;
+import rosbifbr.typist.inputmethod.latin.utils.ApplicationUtils;
 
 public final class SettingsFragment extends InputMethodSettingsFragment {
     @Override

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package rkr.simplekeyboard.inputmethod.keyboard.internal;
+package rosbifbr.typist.inputmethod.keyboard.internal;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -33,15 +33,15 @@ import java.io.IOException;
 import java.util.Arrays;
 import java.util.Locale;
 
-import rkr.simplekeyboard.inputmethod.R;
-import rkr.simplekeyboard.inputmethod.keyboard.Key;
-import rkr.simplekeyboard.inputmethod.keyboard.Keyboard;
-import rkr.simplekeyboard.inputmethod.keyboard.KeyboardId;
-import rkr.simplekeyboard.inputmethod.keyboard.KeyboardTheme;
-import rkr.simplekeyboard.inputmethod.latin.common.StringUtils;
-import rkr.simplekeyboard.inputmethod.latin.utils.ResourceUtils;
-import rkr.simplekeyboard.inputmethod.latin.utils.XmlParseUtils;
-import rkr.simplekeyboard.inputmethod.latin.utils.XmlParseUtils.ParseException;
+import rosbifbr.typist.inputmethod.R;
+import rosbifbr.typist.inputmethod.keyboard.Key;
+import rosbifbr.typist.inputmethod.keyboard.Keyboard;
+import rosbifbr.typist.inputmethod.keyboard.KeyboardId;
+import rosbifbr.typist.inputmethod.keyboard.KeyboardTheme;
+import rosbifbr.typist.inputmethod.latin.common.StringUtils;
+import rosbifbr.typist.inputmethod.latin.utils.ResourceUtils;
+import rosbifbr.typist.inputmethod.latin.utils.XmlParseUtils;
+import rosbifbr.typist.inputmethod.latin.utils.XmlParseUtils.ParseException;
 
 /**
  * Keyboard Building helper.

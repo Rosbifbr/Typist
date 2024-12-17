@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package rkr.simplekeyboard.inputmethod.keyboard.internal;
+package rosbifbr.typist.inputmethod.keyboard.internal;
 
 import android.text.TextUtils;
 import android.util.Log;
 
-import rkr.simplekeyboard.inputmethod.event.Event;
-import rkr.simplekeyboard.inputmethod.latin.common.Constants;
-import rkr.simplekeyboard.inputmethod.latin.utils.CapsModeUtils;
-import rkr.simplekeyboard.inputmethod.latin.utils.RecapitalizeStatus;
+import rosbifbr.typist.inputmethod.event.Event;
+import rosbifbr.typist.inputmethod.latin.common.Constants;
+import rosbifbr.typist.inputmethod.latin.utils.CapsModeUtils;
+import rosbifbr.typist.inputmethod.latin.utils.RecapitalizeStatus;
 
 /**
  * Keyboard state machine.

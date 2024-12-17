@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package rkr.simplekeyboard.inputmethod.keyboard;
+package rosbifbr.typist.inputmethod.keyboard;
 
 import android.animation.AnimatorInflater;
 import android.animation.ObjectAnimator;
@@ -35,23 +35,23 @@ import android.view.ViewGroup;
 
 import java.util.WeakHashMap;
 
-import rkr.simplekeyboard.inputmethod.R;
-import rkr.simplekeyboard.inputmethod.keyboard.internal.DrawingPreviewPlacerView;
-import rkr.simplekeyboard.inputmethod.keyboard.internal.DrawingProxy;
-import rkr.simplekeyboard.inputmethod.keyboard.internal.KeyDrawParams;
-import rkr.simplekeyboard.inputmethod.keyboard.internal.KeyPreviewChoreographer;
-import rkr.simplekeyboard.inputmethod.keyboard.internal.KeyPreviewDrawParams;
-import rkr.simplekeyboard.inputmethod.keyboard.internal.KeyPreviewView;
-import rkr.simplekeyboard.inputmethod.keyboard.internal.MoreKeySpec;
-import rkr.simplekeyboard.inputmethod.keyboard.internal.NonDistinctMultitouchHelper;
-import rkr.simplekeyboard.inputmethod.keyboard.internal.TimerHandler;
-import rkr.simplekeyboard.inputmethod.latin.Subtype;
-import rkr.simplekeyboard.inputmethod.latin.RichInputMethodManager;
-import rkr.simplekeyboard.inputmethod.latin.common.Constants;
-import rkr.simplekeyboard.inputmethod.latin.common.CoordinateUtils;
-import rkr.simplekeyboard.inputmethod.latin.utils.LanguageOnSpacebarUtils;
-import rkr.simplekeyboard.inputmethod.latin.utils.LocaleResourceUtils;
-import rkr.simplekeyboard.inputmethod.latin.utils.TypefaceUtils;
+import rosbifbr.typist.inputmethod.R;
+import rosbifbr.typist.inputmethod.keyboard.internal.DrawingPreviewPlacerView;
+import rosbifbr.typist.inputmethod.keyboard.internal.DrawingProxy;
+import rosbifbr.typist.inputmethod.keyboard.internal.KeyDrawParams;
+import rosbifbr.typist.inputmethod.keyboard.internal.KeyPreviewChoreographer;
+import rosbifbr.typist.inputmethod.keyboard.internal.KeyPreviewDrawParams;
+import rosbifbr.typist.inputmethod.keyboard.internal.KeyPreviewView;
+import rosbifbr.typist.inputmethod.keyboard.internal.MoreKeySpec;
+import rosbifbr.typist.inputmethod.keyboard.internal.NonDistinctMultitouchHelper;
+import rosbifbr.typist.inputmethod.keyboard.internal.TimerHandler;
+import rosbifbr.typist.inputmethod.latin.Subtype;
+import rosbifbr.typist.inputmethod.latin.RichInputMethodManager;
+import rosbifbr.typist.inputmethod.latin.common.Constants;
+import rosbifbr.typist.inputmethod.latin.common.CoordinateUtils;
+import rosbifbr.typist.inputmethod.latin.utils.LanguageOnSpacebarUtils;
+import rosbifbr.typist.inputmethod.latin.utils.LocaleResourceUtils;
+import rosbifbr.typist.inputmethod.latin.utils.TypefaceUtils;
 
 /**
  * A view that is responsible for detecting key presses and touch movements.

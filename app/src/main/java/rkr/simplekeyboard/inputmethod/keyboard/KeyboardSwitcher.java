@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package rkr.simplekeyboard.inputmethod.keyboard;
+package rosbifbr.typist.inputmethod.keyboard;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -25,20 +25,20 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.inputmethod.EditorInfo;
 
-import rkr.simplekeyboard.inputmethod.R;
-import rkr.simplekeyboard.inputmethod.event.Event;
-import rkr.simplekeyboard.inputmethod.keyboard.KeyboardLayoutSet.KeyboardLayoutSetException;
-import rkr.simplekeyboard.inputmethod.keyboard.internal.KeyboardState;
-import rkr.simplekeyboard.inputmethod.keyboard.internal.KeyboardTextsSet;
-import rkr.simplekeyboard.inputmethod.latin.InputView;
-import rkr.simplekeyboard.inputmethod.latin.LatinIME;
-import rkr.simplekeyboard.inputmethod.latin.RichInputMethodManager;
-import rkr.simplekeyboard.inputmethod.latin.settings.Settings;
-import rkr.simplekeyboard.inputmethod.latin.settings.SettingsValues;
-import rkr.simplekeyboard.inputmethod.latin.utils.CapsModeUtils;
-import rkr.simplekeyboard.inputmethod.latin.utils.LanguageOnSpacebarUtils;
-import rkr.simplekeyboard.inputmethod.latin.utils.RecapitalizeStatus;
-import rkr.simplekeyboard.inputmethod.latin.utils.ResourceUtils;
+import rosbifbr.typist.inputmethod.R;
+import rosbifbr.typist.inputmethod.event.Event;
+import rosbifbr.typist.inputmethod.keyboard.KeyboardLayoutSet.KeyboardLayoutSetException;
+import rosbifbr.typist.inputmethod.keyboard.internal.KeyboardState;
+import rosbifbr.typist.inputmethod.keyboard.internal.KeyboardTextsSet;
+import rosbifbr.typist.inputmethod.latin.InputView;
+import rosbifbr.typist.inputmethod.latin.LatinIME;
+import rosbifbr.typist.inputmethod.latin.RichInputMethodManager;
+import rosbifbr.typist.inputmethod.latin.settings.Settings;
+import rosbifbr.typist.inputmethod.latin.settings.SettingsValues;
+import rosbifbr.typist.inputmethod.latin.utils.CapsModeUtils;
+import rosbifbr.typist.inputmethod.latin.utils.LanguageOnSpacebarUtils;
+import rosbifbr.typist.inputmethod.latin.utils.RecapitalizeStatus;
+import rosbifbr.typist.inputmethod.latin.utils.ResourceUtils;
 
 public final class KeyboardSwitcher implements KeyboardState.SwitchActions {
     private static final String TAG = KeyboardSwitcher.class.getSimpleName();

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package rkr.simplekeyboard.inputmethod.latin;
+package rosbifbr.typist.inputmethod.latin;
 
 import android.app.AlertDialog;
 import android.content.BroadcastReceiver;
@@ -46,27 +46,27 @@ import java.io.PrintWriter;
 import java.util.Locale;
 import java.util.concurrent.TimeUnit;
 
-import rkr.simplekeyboard.inputmethod.compat.EditorInfoCompatUtils;
-import rkr.simplekeyboard.inputmethod.compat.PreferenceManagerCompat;
-import rkr.simplekeyboard.inputmethod.compat.ViewOutlineProviderCompatUtils;
-import rkr.simplekeyboard.inputmethod.compat.ViewOutlineProviderCompatUtils.InsetsUpdater;
-import rkr.simplekeyboard.inputmethod.event.Event;
-import rkr.simplekeyboard.inputmethod.event.InputTransaction;
-import rkr.simplekeyboard.inputmethod.keyboard.Keyboard;
-import rkr.simplekeyboard.inputmethod.keyboard.KeyboardActionListener;
-import rkr.simplekeyboard.inputmethod.keyboard.KeyboardId;
-import rkr.simplekeyboard.inputmethod.keyboard.KeyboardSwitcher;
-import rkr.simplekeyboard.inputmethod.keyboard.MainKeyboardView;
-import rkr.simplekeyboard.inputmethod.latin.common.Constants;
-import rkr.simplekeyboard.inputmethod.latin.define.DebugFlags;
-import rkr.simplekeyboard.inputmethod.latin.inputlogic.InputLogic;
-import rkr.simplekeyboard.inputmethod.latin.settings.Settings;
-import rkr.simplekeyboard.inputmethod.latin.settings.SettingsActivity;
-import rkr.simplekeyboard.inputmethod.latin.settings.SettingsValues;
-import rkr.simplekeyboard.inputmethod.latin.utils.ApplicationUtils;
-import rkr.simplekeyboard.inputmethod.latin.utils.LeakGuardHandlerWrapper;
-import rkr.simplekeyboard.inputmethod.latin.utils.ResourceUtils;
-import rkr.simplekeyboard.inputmethod.latin.utils.ViewLayoutUtils;
+import rosbifbr.typist.inputmethod.compat.EditorInfoCompatUtils;
+import rosbifbr.typist.inputmethod.compat.PreferenceManagerCompat;
+import rosbifbr.typist.inputmethod.compat.ViewOutlineProviderCompatUtils;
+import rosbifbr.typist.inputmethod.compat.ViewOutlineProviderCompatUtils.InsetsUpdater;
+import rosbifbr.typist.inputmethod.event.Event;
+import rosbifbr.typist.inputmethod.event.InputTransaction;
+import rosbifbr.typist.inputmethod.keyboard.Keyboard;
+import rosbifbr.typist.inputmethod.keyboard.KeyboardActionListener;
+import rosbifbr.typist.inputmethod.keyboard.KeyboardId;
+import rosbifbr.typist.inputmethod.keyboard.KeyboardSwitcher;
+import rosbifbr.typist.inputmethod.keyboard.MainKeyboardView;
+import rosbifbr.typist.inputmethod.latin.common.Constants;
+import rosbifbr.typist.inputmethod.latin.define.DebugFlags;
+import rosbifbr.typist.inputmethod.latin.inputlogic.InputLogic;
+import rosbifbr.typist.inputmethod.latin.settings.Settings;
+import rosbifbr.typist.inputmethod.latin.settings.SettingsActivity;
+import rosbifbr.typist.inputmethod.latin.settings.SettingsValues;
+import rosbifbr.typist.inputmethod.latin.utils.ApplicationUtils;
+import rosbifbr.typist.inputmethod.latin.utils.LeakGuardHandlerWrapper;
+import rosbifbr.typist.inputmethod.latin.utils.ResourceUtils;
+import rosbifbr.typist.inputmethod.latin.utils.ViewLayoutUtils;
 
 /**
  * Input method implementation for Qwerty'ish keyboard.

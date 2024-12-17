@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package rkr.simplekeyboard.inputmethod.latin.settings;
+package rosbifbr.typist.inputmethod.latin.settings;
 
 import android.app.AlertDialog;
 import android.content.Context;
@@ -38,15 +38,15 @@ import java.util.Set;
 import java.util.SortedSet;
 import java.util.TreeSet;
 
-import rkr.simplekeyboard.inputmethod.R;
-import rkr.simplekeyboard.inputmethod.compat.MenuItemIconColorCompat;
-import rkr.simplekeyboard.inputmethod.latin.Subtype;
-import rkr.simplekeyboard.inputmethod.latin.RichInputMethodManager;
-import rkr.simplekeyboard.inputmethod.latin.common.LocaleUtils;
-import rkr.simplekeyboard.inputmethod.latin.utils.LocaleResourceUtils;
-import rkr.simplekeyboard.inputmethod.latin.utils.SubtypeLocaleUtils;
+import rosbifbr.typist.inputmethod.R;
+import rosbifbr.typist.inputmethod.compat.MenuItemIconColorCompat;
+import rosbifbr.typist.inputmethod.latin.Subtype;
+import rosbifbr.typist.inputmethod.latin.RichInputMethodManager;
+import rosbifbr.typist.inputmethod.latin.common.LocaleUtils;
+import rosbifbr.typist.inputmethod.latin.utils.LocaleResourceUtils;
+import rosbifbr.typist.inputmethod.latin.utils.SubtypeLocaleUtils;
 
-import static rkr.simplekeyboard.inputmethod.latin.settings.SingleLanguageSettingsFragment.LOCALE_BUNDLE_KEY;
+import static rosbifbr.typist.inputmethod.latin.settings.SingleLanguageSettingsFragment.LOCALE_BUNDLE_KEY;
 
 /**
  * "Languages" settings sub screen.

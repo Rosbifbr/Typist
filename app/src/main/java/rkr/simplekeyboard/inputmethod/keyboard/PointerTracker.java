@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package rkr.simplekeyboard.inputmethod.keyboard;
+package rosbifbr.typist.inputmethod.keyboard;
 
 import android.content.res.Resources;
 import android.content.res.TypedArray;
@@ -23,15 +23,15 @@ import android.view.MotionEvent;
 
 import java.util.ArrayList;
 
-import rkr.simplekeyboard.inputmethod.R;
-import rkr.simplekeyboard.inputmethod.keyboard.internal.BogusMoveEventDetector;
-import rkr.simplekeyboard.inputmethod.keyboard.internal.DrawingProxy;
-import rkr.simplekeyboard.inputmethod.keyboard.internal.PointerTrackerQueue;
-import rkr.simplekeyboard.inputmethod.keyboard.internal.TimerProxy;
-import rkr.simplekeyboard.inputmethod.latin.common.Constants;
-import rkr.simplekeyboard.inputmethod.latin.common.CoordinateUtils;
-import rkr.simplekeyboard.inputmethod.latin.define.DebugFlags;
-import rkr.simplekeyboard.inputmethod.latin.settings.Settings;
+import rosbifbr.typist.inputmethod.R;
+import rosbifbr.typist.inputmethod.keyboard.internal.BogusMoveEventDetector;
+import rosbifbr.typist.inputmethod.keyboard.internal.DrawingProxy;
+import rosbifbr.typist.inputmethod.keyboard.internal.PointerTrackerQueue;
+import rosbifbr.typist.inputmethod.keyboard.internal.TimerProxy;
+import rosbifbr.typist.inputmethod.latin.common.Constants;
+import rosbifbr.typist.inputmethod.latin.common.CoordinateUtils;
+import rosbifbr.typist.inputmethod.latin.define.DebugFlags;
+import rosbifbr.typist.inputmethod.latin.settings.Settings;
 
 public final class PointerTracker implements PointerTrackerQueue.Element {
     private static final String TAG = PointerTracker.class.getSimpleName();

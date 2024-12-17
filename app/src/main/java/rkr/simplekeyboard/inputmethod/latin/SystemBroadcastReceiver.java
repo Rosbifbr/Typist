@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package rkr.simplekeyboard.inputmethod.latin;
+package rosbifbr.typist.inputmethod.latin;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.util.Log;
 
-import rkr.simplekeyboard.inputmethod.keyboard.KeyboardLayoutSet;
+import rosbifbr.typist.inputmethod.keyboard.KeyboardLayoutSet;
 
 /**
  * When the system locale has been changed, {@link Intent#ACTION_LOCALE_CHANGED} is received by

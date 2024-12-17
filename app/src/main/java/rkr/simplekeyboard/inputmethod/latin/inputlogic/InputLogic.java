@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package rkr.simplekeyboard.inputmethod.latin.inputlogic;
+package rosbifbr.typist.inputmethod.latin.inputlogic;
 
 import android.os.SystemClock;
 import android.text.TextUtils;
@@ -24,16 +24,16 @@ import android.view.inputmethod.EditorInfo;
 
 import java.util.TreeSet;
 
-import rkr.simplekeyboard.inputmethod.event.Event;
-import rkr.simplekeyboard.inputmethod.event.InputTransaction;
-import rkr.simplekeyboard.inputmethod.latin.LatinIME;
-import rkr.simplekeyboard.inputmethod.latin.RichInputConnection;
-import rkr.simplekeyboard.inputmethod.latin.common.Constants;
-import rkr.simplekeyboard.inputmethod.latin.common.StringUtils;
-import rkr.simplekeyboard.inputmethod.latin.settings.SettingsValues;
-import rkr.simplekeyboard.inputmethod.latin.utils.InputTypeUtils;
-import rkr.simplekeyboard.inputmethod.latin.utils.RecapitalizeStatus;
-import rkr.simplekeyboard.inputmethod.latin.utils.SubtypeLocaleUtils;
+import rosbifbr.typist.inputmethod.event.Event;
+import rosbifbr.typist.inputmethod.event.InputTransaction;
+import rosbifbr.typist.inputmethod.latin.LatinIME;
+import rosbifbr.typist.inputmethod.latin.RichInputConnection;
+import rosbifbr.typist.inputmethod.latin.common.Constants;
+import rosbifbr.typist.inputmethod.latin.common.StringUtils;
+import rosbifbr.typist.inputmethod.latin.settings.SettingsValues;
+import rosbifbr.typist.inputmethod.latin.utils.InputTypeUtils;
+import rosbifbr.typist.inputmethod.latin.utils.RecapitalizeStatus;
+import rosbifbr.typist.inputmethod.latin.utils.SubtypeLocaleUtils;
 
 /**
  * This class manages the input logic.
