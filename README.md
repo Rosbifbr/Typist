@@ -1,40 +1,28 @@
-# Simple Keyboard
+# Typist
 
-[![Crowdin](https://d322cqt584bo4o.cloudfront.net/simple-keyboard/localized.svg)](https://crowdin.com/project/simple-keyboard)
+Typist is a simple but effective voice keyboard for Android. I've decided to code it as most other voice keyboards are terrible and OpenAI's whisper models are getting dirt-cheap to use.
 
-<img src="images/screenshot-0.png"
-      alt="closeup"
-      width="500"/>
-      
+Maube, in the future, it will support local model execution, but for now, it just wraps the OpenAI API and focuses in providing a good experience.
+
 ## About
 
 Features:
+
 - Small size (<1MB)
 - Adjustable keyboard height for more screen space
 - Number row
 - Swipe space to move pointer
 - Delete swipe
 - Custom theme colors
-- Minimal permissions (only Vibrate)
+- Minimal permissions (only Vibrate and Mic)
 - Ads-free
-
-Feature it doesn't have and probably will never have:
-- Emojis
-- GIFs
-- Spell checker
-- Swipe typing
 
 ## Downloads
 
-[<img src="https://f-droid.org/badge/get-it-on.png"
-      alt="Get it on F-Droid"
-      height="80">](https://f-droid.org/packages/rkr.simplekeyboard.inputmethod/)
-[<img src="https://play.google.com/intl/en_us/badges/images/generic/en-play-badge.png"
-      alt="Get it on Google Play"
-      height="80">](https://play.google.com/store/apps/details?id=rkr.simplekeyboard.inputmethod)
+TBA. For now only in the releases tab.
 
 ## Credits
 
 Licensed under Apache License Version 2
 
-This keyboard is based on AOSP LatinIME keyboard. You can get the original source code in https://android.googlesource.com/platform/packages/inputmethods/LatinIME/
+This keyboard is based on Raimondas Rimkus's Simple Keyboard, which is itself based on AOSP's LatinIME keyboard. You can get the original source code in <https://github.com/rkkr/simple-keyboard> and <https://android.googlesource.com/platform/packages/inputmethods/LatinIME/>
